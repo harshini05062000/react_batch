@@ -1,0 +1,88 @@
+.main{
+	display:flex;
+	border-radius: 25px;
+	border: 30px solid #000;
+	height: 780px;
+}
+.one {
+	width: 350px;
+	height: 780px;
+	background-color: pink;
+}
+img {
+	width:200px;
+	height:200px;
+	padding-top:30px;
+	padding-left:30px;
+}
+h4 {
+	padding-left:30px;
+}
+hr{
+	background-color:#000;
+	border:none;
+	height:4px;
+}
+a{
+	padding-left:30px;
+}
+.two{
+	width: 80%;
+	border-left: 30px solid #000;
+	height: 780px;
+	background-color:yellow;
+}
+h3 {
+	padding-left:30px;
+}
+p{
+	padding-left:50px;
+}
+@media screen and (min-width: 770px)and (max-width: 1024px){
+.main{
+flex-direction: row;
+}
+.one{
+width: 100%;
+padding: 5px;
+}
+.two{
+width: 100%;
+padding: 5px;
+}
+table{
+font-size: 15px;
+}
+}
+@media screen and (min-width: 520px)and (max-width: 770px){
+.main{
+flex-direction: column;
+}
+.one{
+width: 99%;
+padding: 5px;
+}
+.two{
+width: 99%;
+padding: 5px;
+}
+table{
+font-size: 15px;
+}
+}
+@media screen and (min-width: 400px)and (max-width: 520px){
+.main{
+flex-direction: column;
+}
+.one{
+width: 97%;
+padding: 5px;
+}
+.two{
+width: 97%;
+padding: 5px;
+}
+table{
+font-size: 10px;
+}
+}
